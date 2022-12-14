@@ -1,7 +1,7 @@
 param location string = resourceGroup().location
-param ServiceAppName string = 'AYAACOUB-assignement-be'
-param appServiceAppName string = 'AYAACOUB-assignment-fe'
-param appServicePlanName string = 'AYAACOUB-asssignemnt-asp'
+param ServiceAppName string = 'ayaacoub-assignement-be'
+param appServiceAppName string = 'ayaacoub-assignment-fe'
+param appServicePlanName string = 'ayaacoub-asssignemnt-asp'
 @allowed([
   'nonprod'
   'prod'

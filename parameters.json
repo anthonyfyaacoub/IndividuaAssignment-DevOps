@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "appServiceAppName": {
-            "value": "AYAACOUB-assignment-fe"
+            "value": "ayaacoub-assignment-fe"
         },
         "appServicePlanName": {
-            "value": "AYAACOUB-asssignemnt"
+            "value": "ayaacoub-asssignemnt"
         },
         "storageAccountName": {
-            "value": "AYAACOUBstorage"
+            "value": "ayaacoubstorage"
         },
         "ServiceAppName": {
-            "value": "AYAACOUB-assignement-be"
+            "value": "ayaacoub-assignement-be"
         }
     }
 }

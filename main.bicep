@@ -1,22 +1,22 @@
 @sys.description('The Web BE App name')
 @minLength(3)
 @maxLength(24)
-param ServiceAppName string = 'AYAACOUB-assignement-be'
+param ServiceAppName string = 'ayaacoub-assignement-be'
 
 @sys.description('The Web FE App name')
 @minLength(3)
 @maxLength(24)
-param appServiceAppName string = 'AYAACOUB-assignment-fe'
+param appServiceAppName string = 'ayaacoub-assignment-fe'
 
 @sys.description('The App Service Plan name')
 @minLength(3)
 @maxLength(24)
-param appServicePlanName string = 'AYAACOUB-asssignemnt-asp'
+param appServicePlanName string = 'ayaacoub-asssignemnt-asp'
 
 @sys.description('The Storage Account name')
 @minLength(3)
 @maxLength(24)
-param storageAccountName string = 'AYAACOUBstorage'
+param storageAccountName string = 'ayaacoubstorage'
 @allowed([
   'nonprod'
   'prod'
