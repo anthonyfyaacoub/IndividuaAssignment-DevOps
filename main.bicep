@@ -11,7 +11,7 @@ param appServiceAppName string = 'ayaacoub-assignment-fe'
 @sys.description('The App Service Plan name')
 @minLength(3)
 @maxLength(24)
-param appServicePlanName string = 'ayaacoub-asssignemnt-asp'
+param appServicePlanName string = 'ayaacoub-assignment-asp'
 
 @sys.description('The Storage Account name')
 @minLength(3)
